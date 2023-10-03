@@ -23,9 +23,9 @@ public class ShadyMeadowsTest extends BaseTest {
         clientDetails.BookButton().click();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         String actualErrorMsg = clientDetails.EmptyEmailErrorMsg().getText();
-        assertTrue(actualErrorMsg.contains("must not be empty\n"));
+        assertTrue(actualErrorMsg.contains("must not be null"));
         extentTest.info("Create booking where email is missing");
-       
+
 
 
     }
@@ -42,6 +42,7 @@ public class ShadyMeadowsTest extends BaseTest {
         extentTest.info("Create booking with all the required info");
         extentTest.pass("Booking Failed");
         extentTest.info("Delete Booking");
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         clientDetails.CancelBooking();
 
 

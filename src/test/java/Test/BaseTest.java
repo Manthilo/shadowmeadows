@@ -59,7 +59,7 @@ public class BaseTest {
 
         } else if (result.getStatus()==ITestResult.FAILURE) {
             extentTest.pass(m.getName()+ "     failed");
-            takeSnapShot(driver, "C://Users//Lungelo.Zondo//IdeaProjects//untitled");
+            takeSnapShot(driver, "C://Users//Lungelo.Zondo//IdeaProjects//untitled//src//screenshot");
 
         }
 
