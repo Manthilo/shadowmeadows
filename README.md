@@ -22,11 +22,13 @@ Environment:
 *   Added Java Home on System and Path Variables
 *   Added Maven Home on System and Path Variables
 *   POM File has the following dependecies  downloaded from Maven Repository
-  -testng
-  -externtreports
-  -selenium -server
-  -maven-surefire-plugin
-  -webdrivermanager
+  -**testng**
+  ,**externtreports**
+  ,**selenium -server**
+  ,**maven-surefire-plugin**
+   ,**webdrivermanager**
+
+  
 Execution:
 ---------------
 *	Unzip the project on the shared folder OR  git clone the repo https://github.com/Manthilo/shadowmeadows.git
