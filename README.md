@@ -21,8 +21,12 @@ Environment:
 * 	The setup is done on my local machine
 *   Added Java Home on System and Path Variables
 *   Added Maven Home on System and Path Variables
-
-
+*   POM File has the following dependecies  downloaded from Maven Repository
+  -testng
+  -externtreports
+  -selenium -server
+  -maven-surefire-plugin
+  -webdrivermanager
 Execution:
 ---------------
 *	Unzip the project on the shared folder OR  git clone the repo https://github.com/Manthilo/shadowmeadows.git
@@ -39,5 +43,6 @@ Screenshot:
 
 Reporting:
 ---------------
+*  The Reports are generated using the Extent Report Library
 *  The framework produce ShadowMeadowsTest.html report. It resides in the same project untitled folder. This reports gives the link to all the different component of the TestNG reports like Groups & Reporter Output. On clicking these will display detailed descriptions of execution.
 * To open the report you Right Click on the ShadowMeadowsTest.html and Click open with explorer or broswer
